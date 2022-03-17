@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="icon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+
+    <title>ПРОФИ — надёжное решение проблем</title>
+</head>
+<body>
+    <header class="header">
+        <h2 class="header__logo">Профи</h2>
+        <a class="header__phone" href="tel:+79650000888">+7(965)0000-888</a>
+    </header>
+    <main class="main">
+        <h1 class="title">Заполните анкету и&nbsp;решите&nbsp;свою&nbsp;проблему</h1>
+        <form class="form" method="POST">
+            <input class="form__input input" name="name" type="text" placeholder="Введите имя">
+            <input class="form__input input" name="phone" type="phone" placeholder="Введите ваш телефон">
+            <select class="form__input input" name="category"> 
+                <option value="" selected>Выберите категорию</option>
+                <option value="house">Строительство дома или квартиры под ключ</option>
+                <option value="finishing">Отделочные работы под ключ</option>
+                <option value="painting">Малярные и штукатурные работы</option>
+                <option value="facade">Фасадные работы</option>
+                <option value="roofing">Кровельные работы</option>
+                <option value="heating">Отопление</option>
+                <option value="wallpaper">Поклейка обоев</option>
+                <option value="door">Установка дверей</option>
+                <option value="design">Проектирование и дизайн</option>
+                <option value="drilling">Бурение</option>
+            </select>
+            <textarea class="form__message input" name="message" placeholder="Опишите свою задачу"></textarea>
+            <button class="form__button button" type="submit">Оформить заявку</button>
+        </form>
+    </mainc>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
